@@ -26,7 +26,7 @@
 
 .hero{
     width: 100%;
-    min-height: 35vh;
+    min-height: 30vh;
     display: grid;
     place-items: center;
 }
@@ -118,7 +118,7 @@ strong{
 
 .about{
     width: 100%;
-    height: 60vh;
+    height: 64vh;
     display: grid;
     background-image: linear-gradient( white , #F2BD00);
 
@@ -133,7 +133,6 @@ strong{
 .row{
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 100px;
     
    
 }
@@ -156,7 +155,8 @@ strong{
     
 }
 
-.row-footer{
+.footer{
+    padding-top: 200px;
     text-align: center;
     font-style: italic;
     font-size: 12px;
