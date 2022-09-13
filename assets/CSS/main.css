@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&family=Mochiy+Pop+P+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand{
+    font-family: 'Mochiy Pop P One';
+    font-size: 42px;
+}
+
+.tombol{
+    padding: 5px 10px 5px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    background-color: #F2BD00;
+    border-radius:50px ;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    
+}
+
+.hero{
+    width: 100%;
+    min-height: 35vh;
+    display: grid;
+    place-items: center;
+}
+
+
+.hero .box-hero{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    align-items: center;
+}
+
+.hero .box-hero .box:nth-child(1) h1{
+    font-family: Mochiy Pop P One;
+    font-size: 15px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    color: #F2BD00;
+}
+
+.hero .box-hero .box:nth-child(1) h3{
+    font-family: Mochiy Pop  P One;
+    font-size: 12px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.hero .box-hero .box:nth-child(1) p{
+    font-size: 10px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.hero .box-hero .box:nth-child(1) .btn1{
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    font-size: 9px;
+    border: 1px solid #F2BD00;
+    background-color: white;
+    border-radius:50px ;
+    -webkit-border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    cursor: pointer;
+    transition: all 1s;
+    -webkit-transition:all 1s;
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+    -ms-transition:all 1s;
+    -o-transition:all 1s;
+}
+
+.hero .box-hero .box:nth-child(1) .btn1:hover{
+   background-color: #F2BD00;
+}
+
+
+
+.bosan{
+    font-weight: bold;
+    font-style: italic;
+}
+.vina{
+    color: #F2BD00;
+}
+strong{
+    font-family: Mochiy Pop P One ;
+}
+
+
+.rupiah{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 12px
+}
+
+.hero .box-hero .box:nth-child(2) img{
+    width: 200px;
+    height: 200px;
+    
+}
+.v{
+    color: #F2BD00;
+}
+
+.about{
+    width: 100%;
+    height: 59vh;
+    display: grid;
+    background-image: linear-gradient( white , #F2BD00);
+
+}
+
+.judul{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 15px;
+    font-family: 'M PLUS Rounded 1c';
+}
+.row{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    
+   
+}
+
+.p{
+   
+    font-size: 13px;
+    font-style: italic;
+}
+
+.row img{
+    border-radius: 50px;
+    width: 50px;
+
+}
+
+.nama{
+    padding-top: 5px;
+    font-size: 12px;
+    
+}
+
+.row-footer{
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+}
+
+
+@media (min-width: 992px) { 
+
+    .nav-item{
+        text-transform: uppercase;
+        margin-right: 50px;
+        
+    }
+    
+    .nav-item:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #F2BD00;
+        width: 50%;
+        margin: auto;
+        margin-bottom: -8px;
+        padding-bottom: 5px;
+       
+
+    }
+    .hero{
+        width: 100%;
+        min-height: 80vh;
+        display: grid;
+        place-items: center;
+    }
+    
+    
+    .hero .box-hero{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 40px;
+        align-items: center;
+    }
+    .hero .box-hero .box:nth-child(1) h1{
+        font-family: Mochiy Pop P One;
+        font-size: 40px;
+        line-height: 1.2;
+        margin-top: -50px;
+        margin-bottom: 50px;
+        color: #F2BD00;
+    }
+    
+    .hero .box-hero .box:nth-child(1) h3{
+        font-family: Mochiy Pop P One;
+        font-size: 32px;
+        line-height: 1.2;
+        margin-bottom: 50px;
+        color: #000000;
+    }
+    
+    .hero .box-hero .box:nth-child(1) p{
+        font-size: 20px;
+        line-height: 1.2;
+        margin-bottom: 50px;
+        color: #000000;
+    }
+    
+    .hero .box-hero .box:nth-child(1) .btn1{
+        padding: 15px 50px 15px 50px;
+        font-weight: bold;
+        font-size: 16px;
+        border: 1px solid #F2BD00;
+        background-color: white;
+        border-radius:50px ;
+        -webkit-border-radius:50px;
+        -webkit-border-radius:50px;
+        -moz-border-radius:50px;
+        -ms-border-radius:50px;
+        -o-border-radius:50px;
+        cursor: pointer;
+        transition: all 1s;
+        -webkit-transition:all 1s;
+        -webkit-transition:all 1s;
+        -moz-transition:all 1s;
+        -ms-transition:all 1s;
+        -o-transition:all 1s;
+        
+    }
+    
+    .hero .box-hero .box:nth-child(1) .btn1:hover{
+       background-color: #F2BD00;
+    }
+    
+    
+    
+    .bosan{
+        font-weight: bold;
+        font-style: italic;
+    }
+    .vina{
+        color: #F2BD00;
+    }
+    strong{
+        font-family: Mochiy Pop P One ;
+    }
+    
+    
+    .rupiah{
+        font-weight: bold;
+        font-style: italic;
+        font-size: 25px
+    }
+    
+    .hero .box-hero .box:nth-child(2) img{
+        width: 600px;
+        height: 600px;
+    }
+}
