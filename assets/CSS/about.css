@@ -19,6 +19,7 @@
     min-height: 30vh;
     display: grid;
     place-items: center;
+    padding-top: 55px;
     background-color: #F2BD00;
 }
 
@@ -96,7 +97,7 @@ strong{
 
 }
 
-.row{
+.thumbnail{
     text-align: center;
     padding-top: 30px;   
 }
@@ -123,8 +124,34 @@ strong{
     flex-direction: column-reverse;
 }
 
+.skill{
+    justify-content: center;
+ width: 300px;
+padding-left: 90px ;
+}
+.info-panel{
+    background-color: #F2BD00;
+    text-align: center;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
+    border-radius: 40px;
+   
+}
+.info-panel h1{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Montserrat;
+}
+
+.skil{
+    width: 100px;
+    height: 100px;
+}
+
+
+
 .footer{
-    padding-top: 200px;
+    padding-top: 100px;
     text-align: center;
     font-style: italic;
     font-size: 12px;
@@ -142,7 +169,7 @@ strong{
     .nav-item:hover::after{
         content: '';
         display: block;
-        border-bottom: 3px solid #F2BD00;
+        border-bottom: 3px solid white;
         width: 50%;
         margin: auto;
         margin-bottom: -8px;
@@ -150,138 +177,160 @@ strong{
        
 
     }
-    .hero{
-        width: 100%;
-        min-height: 80vh;
-        display: grid;
-        place-items: center;
-    }
-    
-    
-    .hero .box-hero{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 40px;
-        align-items: center;
-    }
-    .hero .box-hero .box:nth-child(1) h1{
-        font-family: Mochiy Pop P One;
-        font-size: 40px;
-        line-height: 1.2;
-        margin-top: -50px;
-        margin-bottom: 50px;
-        color: #F2BD00;
-    }
-    
-    .hero .box-hero .box:nth-child(1) h3{
-        font-family: Mochiy Pop P One;
-        font-size: 32px;
-        line-height: 1.2;
-        margin-bottom: 50px;
-        color: #000000;
-    }
-    
-    .hero .box-hero .box:nth-child(1) p{
-        font-size: 20px;
-        line-height: 1.2;
-        margin-bottom: 50px;
-        color: #000000;
-    }
-    
-    .hero .box-hero .box:nth-child(1) .btn1{
-        padding: 15px 50px 15px 50px;
-        font-weight: bold;
-        font-size: 16px;
-        border: 1px solid #F2BD00;
-        background-color: white;
-        border-radius:50px ;
-        -webkit-border-radius:50px;
-        -webkit-border-radius:50px;
-        -moz-border-radius:50px;
-        -ms-border-radius:50px;
-        -o-border-radius:50px;
-        cursor: pointer;
-        transition: all 1s;
-        -webkit-transition:all 1s;
-        -webkit-transition:all 1s;
-        -moz-transition:all 1s;
-        -ms-transition:all 1s;
-        -o-transition:all 1s;
-        
-    }
-    
-    .hero .box-hero .box:nth-child(1) .btn1:hover{
-       background-color: #F2BD00;
-    }
-    
-    
-    
-    .bosan{
-        font-weight: bold;
-        font-style: italic;
-    }
-    .vina{
-        color: #F2BD00;
-    }
-    strong{
-        font-family: Mochiy Pop P One ;
-    }
-    
-    
-    .rupiah{
-        font-weight: bold;
-        font-style: italic;
-        font-size: 25px
-    }
-    
-    .hero .box-hero .box:nth-child(2) img{
-        width: 600px;
-        height: 600px;
-    }
 
-    .about{
-        width: 100%;
-        height: 74vh;
-        display: grid;
-        background-image: linear-gradient( white , #F2BD00);
+
     
-    }
+.hero{
+    width: 100%;
+    min-height: 70vh;
+    display: grid;
+    place-items: center;
+    padding-top: 55px;
+    background-color: #F2BD00;
+}
+
+
+.hero .box-hero{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    align-items: center;
+}
+
+.hero .box-hero .box:nth-child(1) h1{
+    font-family: 'Mochiy Pop P One';
+    font-size: 40px;
+    line-height: 1.2;
     
-    .judul{
-        text-align: center;
-        padding-top: 50px;
-        font-size: 30px;
-        font-family: 'M PLUS Rounded 1c';
-    }
-    .row{
-        text-align: center;
-        padding-top: 150px;
-        
-       
-    }
+    margin-bottom: 50px;
+    color: white;
+}
+
+.hero .box-hero .box:nth-child(1) h3{
+    font-family: Mochiy Pop  P One;
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.hero .box-hero .box:nth-child(1) p{
+    font-size: 29px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+.bosan{
+    font-weight: bold;
+    font-style: italic;
+}
+.vina{
+    color: #F2BD00;
+}
+strong{
+    font-family: 'Mochiy Pop P One' ;
+}
+
+
+.rupiah{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 12px
+}
+
+.hero .box-hero .box:nth-child(2) img{
+    width: 600px;
+    height: 600px;
     
-    .p{
-       
-        font-size:19px;
-        font-style: italic;
-    }
+}
+.v{
+    color: #F2BD00;
+}
+
+.about{
+    width: 100%;
+    height: 64vh;
+    display: grid;
     
-    .row img{
-        border-radius: 50px;
-        width: 50px;
+
+}
+
+.deskripsi{
+    padding-top: 200px;
+}
+.thumbnail{
+    text-align: center;
+    padding-top: 50px;   
+}
+
+.people{
+    width: 500px;
+    height: 500px;
+}
+
+.label{
+    width: 200px;
+    height: 50px;
+}
+
+.nama{
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-align: end;
+ 
+   
     
-    }
+}
+
+.nama{
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-align: start;
+}
+
+
+.skill{
+    width: 1050px;
+   
+}
+
+
+.info-panel{
+    background-color: #F2BD00;
+    text-align: center;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
+    border-radius: 40px;
+   
+   
+}
+
+
+.skil{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.footer{
+    padding-top: 100px;
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+}
+
     
-    .nama{
-        padding-top: 5px;
-        font-size: 12px;
-        
-    }
-    
-    .footer{
-        padding-top: 200px;
-        text-align: center;
-        font-style: italic;
-        font-size: 15px;
-    }
 }
