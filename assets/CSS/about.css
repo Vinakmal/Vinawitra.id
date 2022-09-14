@@ -16,10 +16,10 @@
 
 .hero{
     width: 100%;
-    min-height: 30vh;
+    min-height: 25vh;
     display: grid;
     place-items: center;
-    padding-top: 55px;
+    padding-top: 10px;
     background-color: #F2BD00;
 }
 
@@ -120,9 +120,7 @@ strong{
     
 }
 
-.about .dua{
-    flex-direction: column-reverse;
-}
+
 
 .skill{
     justify-content: center;
@@ -263,6 +261,7 @@ strong{
     
 
 }
+
 
 .deskripsi{
     padding-top: 200px;
