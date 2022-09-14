@@ -5,30 +5,21 @@
     margin: 0;
 }
 
-.navbar-brand{
-    font-family: 'Mochiy Pop P One';
-    font-size: 42px;
+.navbar {
+    background-color: #F2BD00;
+}
+.navbar-brand img{
+  width: 150px;
+  height: 30px;
 }
 
-.tombol{
-    padding: 5px 10px 5px 10px;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: none;
-    background-color: #F2BD00;
-    border-radius:50px ;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    -ms-border-radius:50px;
-    -o-border-radius:50px;
-    
-}
 
 .hero{
     width: 100%;
     min-height: 30vh;
     display: grid;
     place-items: center;
+    background-color: #F2BD00;
 }
 
 
@@ -40,11 +31,11 @@
 }
 
 .hero .box-hero .box:nth-child(1) h1{
-    font-family: Mochiy Pop P One;
+    font-family: 'Mochiy Pop P One';
     font-size: 15px;
     line-height: 1.2;
     margin-bottom: 10px;
-    color: #F2BD00;
+    color: white;
 }
 
 .hero .box-hero .box:nth-child(1) h3{
@@ -52,7 +43,7 @@
     font-size: 12px;
     line-height: 1.2;
     margin-bottom: 10px;
-    color: #000000;
+    color: white;
 }
 
 .hero .box-hero .box:nth-child(1) p{
@@ -97,7 +88,7 @@
     color: #F2BD00;
 }
 strong{
-    font-family: Mochiy Pop P One ;
+    font-family: 'Mochiy Pop P One' ;
 }
 
 
